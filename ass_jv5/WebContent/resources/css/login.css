@@ -1,0 +1,124 @@
+
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/images/avatar.png');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 380px;
+    height: 480px;
+    background: #65c3ba;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login100-form-btn{
+	cursor: pointer;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login100-form-btn {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 320px;
+    height: 50px;
+    border-radius: 25px;
+}
+button {
+    outline: none !important;
+    border: none;
+    cursor: pointer;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+.p-t-90 {
+    padding-top: 90px;
+}
+.text-center {
+    text-align: center!important;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.txt1 {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #e5e5e5;
+    line-height: 1.5;
+}
+a{
+	color: #FFF;
+}
+a:hover{
+	text-decoration: underline;
+}

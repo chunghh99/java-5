@@ -1,0 +1,180 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimage {
+	background-image: url('/images/background.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+	width: 20%;
+	line-height: 100px;
+	float: left;
+	/*	background-color: yellow;*/
+}
+
+.leftmenu h4 {
+	padding-left: 70px;
+	margin-top: 40px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.rightmenu {
+	width: 80%;
+	height: 100px;
+	float: right;
+	/*	background-color: red; */
+}
+
+.rightmenu ul {
+	margin-left: 100px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+.rightmenu ul li a {
+	list-style: none;
+}
+
+.rightmenu a {
+	text-decoration: none;
+	color: white;
+}
+
+#fisrtlist a {
+	
+}
+
+.rightmenu ul li a:hover {
+	color: orange;
+}
+
+.text {
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+}
+
+#dropdown {
+	width: 500px;
+	height: 50px;
+	margin-left: 65px;
+	margin-top: 5px;
+}
+
+.dropdown {
+	float: left;
+	margin-left: 5px;
+}
+
+.text h4 {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1 {
+	font-size: 62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin: 14px 0px;
+}
+
+.text h3 {
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer {
+	padding-top: 20px;
+	max-width: 100%;
+	width: 100%;
+	height: 280px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.noidungfooter {
+	max-width: 100%;
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.noidungfooter ul {
+	list-style: circle;
+}
+
+.noidungfooter a {
+	text-decoration: none;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.cot1 {
+	width: 230px;
+	position: absolute;
+}
+
+.cot2 {
+	width: 270px;
+	position: absolute;
+	margin-left: 250px;
+}
+
+.cot3 {
+	width: 400px;
+	position: absolute;
+	margin-left: 600px;
+}
+
+#footer button {
+	border: 0;
+	background: #ff0000;
+	padding: 2px 15px;
+	color: white;
+	font-size: 18px;
+}
+
+input[type="email"] {
+	width: 250px;
+	height: 30px;
+	padding: 2px 0;
+}
+
+.follow {
+	float: leftl;
+}
+
+.thongtinsohuu {
+	border-top: 1px solid white;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 19px;
+}
